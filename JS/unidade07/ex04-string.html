@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            var nome = "As armas, e os barões assinalados";
+            var emMinus = nome.toLowerCase();
+
+            var separaNomes = emMinus.split(" ");
+
+            var allFirstToUp = separaNomes.map(word => word[0].toUpperCase() + word.substring(1));
+
+            var iniciaisMaiusculas = allFirstToUp.join(" ");
+
+            console.log(iniciaisMaiusculas);
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

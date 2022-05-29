@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+
+          function getDoisDigitos(tempo) {
+            if (tempo < 10) {
+              return "0" + tempo;
+            } else {
+              return tempo;
+            }
+          }
+
+          var horas = new Date();
+
+          console.log("Que horas são? indagou Elionay.");
+          console.log("São " + getDoisDigitos(horas.getHours()) + " horas, " + getDoisDigitos(horas.getMinutes()) + " minutos e " + getDoisDigitos(horas.getSeconds()) + " segundos, respondeu máquina.")  
+        </script>
+    </head>S
+    <body>
+
+    </body>
+</html>

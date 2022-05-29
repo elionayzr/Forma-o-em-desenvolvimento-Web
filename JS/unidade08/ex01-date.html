@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+
+          var meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+          var diasDaSemana = ["Domingo","Segunda-feira","Terça-feira","Quarta-feira","quinta-feira","Sexta-feira","Sábado"];
+
+
+          var aniversario = new Date(2002,2,7);
+          var data = new Date();
+
+          console.log("Hoje é dia " + data.getDate() + " de " + meses[data.getMonth()] + " de " + data.getFullYear());
+          console.log("Eu nasci " + diasDaSemana[aniversario.getDay()] + ", no dia " + aniversario.getDate() + " de " + meses[aniversario.getMonth()] + " de " + aniversario.getFullYear());
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
