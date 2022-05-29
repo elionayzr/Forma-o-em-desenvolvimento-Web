@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title> <!--Título da página que aparece na aba do navegador e nos mecanismos de pesquisa -->
+        <meta charset="utf-8"> <!-- Define o conjunto de caracteres que serão exibidos na página -->
+        <meta name="author" content="Elionay Zuri da Silveira">
+        <meta name="generator" content="Atom">
+        <meta name="description" content="Experimento com CSS, javascript, classe, âncora e link">
+        <meta name= "application-name" content="Mozilla Firefox">
+        <meta name="keywords" content="HTML5, CSS, javascript, Curso de desenvolvimento Web, Imedia, Experimento, link, style, script">
+
+        <meta http-equiv="refresh" content="4">
+
+
+        <link rel="stylesheet" href="estilos.css"> <!-- Importa um elemento externo a este documento. Neste caso, stylesheet, folha de estilo, importa de um arquivo denominado estilos.css, o código que determina a aparência dos elementos desta página -->
+        <style>
+          p {
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+        </style> <!-- Na tag style se pode escrever um código css -->
+        <script>
+          function start() {
+              input.innerHTML = "mussum ipsum cacildis vidri litros abertis...";
+              sorteio.innerHTML = Math.random() * 50;
+
+          }
+
+          window.onload = start;
+
+
+        </script> <!-- Na tag script se pode escrever um código javascript-->>
+    </head> <!-- "é a parte pensante do documento". -->
+    <body>
+      <main>
+        <p class="estilo_generico">Essa página é para o aprendizado de CSS</p>
+        <a class="estilo_generico" href="http://udemy.com">Site da udemy</a>
+
+        <h2 class="estilo_generico"> Da função escrever nome</h2>
+        <p id="input"> </p>
+
+        <h2 class="estilo_generico"> Da função sorteioNumero </h2>
+        <p id="sorteio"></p>
+      </main>
+    </body>
+</html>
