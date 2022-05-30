@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso HTML5 Essencial</title>
+        <script>
+            function mostrarResultado() {
+              document.getElementById("resultado").innerHTML = getElementById("filhos").value;
+            }
+        </script>
+    </head>
+
+    <body>
+        <form action="index.html" method="post">
+          <label for="filhos">Digite o número de filhos</label>
+          <input type="range" name="filhos" id="filhos" value="1" min="0" max="23" onchange="mostrarResultado()">
+          <span id="resultado"></span>
+
+        </form>
+    </body>
+</html>
